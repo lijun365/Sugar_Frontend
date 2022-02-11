@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // const prefixURL = 'http://localhost:8090';
-const prefixURL = 'http://8.136.194.47:8080/sugar';
+const prefixURL = 'http://127.0.0.1:8080/sugar';
 
 const request = axios.create({
   baseURL: prefixURL,
